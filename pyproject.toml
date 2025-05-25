@@ -8,13 +8,12 @@ version = "0.1.0"
 description = "Python client library for SearXNG search instances"
 readme = "README.md"
 authors = [
-    {name = "SearXNG Client", email = "example@example.com"}
+    {name = "bes-dev"}
 ]
-license = {text = "MIT"}
+license = "Apache 2.0"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -45,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/pyserxng"
-Repository = "https://github.com/example/pyserxng.git"
-Documentation = "https://pyserxng.readthedocs.io/"
-"Bug Tracker" = "https://github.com/example/pyserxng/issues"
+Homepage = "https://github.com/bes-dev/pysearxng"
+Repository = "https://github.com/bes-dev/pysearxng.git"
+Documentation = "https://github.com/bes-dev/pysearxng/blob/master/README.md"
+"Bug Tracker" = "https://github.com/bes-dev/pysearxng/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
