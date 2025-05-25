@@ -21,6 +21,9 @@ pip install -e .
 
 # Install with development dependencies
 pip install -e ".[dev]"
+
+# install package from PyPi
+pip install pysearxng
 ```
 
 ## Quick Start
@@ -203,7 +206,7 @@ Main client class for interacting with SearXNG instances.
 
 - `search(query, config=None, instance=None)` - Perform a search
 - `search_images(query, config=None)` - Search for images
-- `search_videos(query, config=None)` - Search for videos  
+- `search_videos(query, config=None)` - Search for videos
 - `search_news(query, config=None)` - Search for news
 - `get_suggestions(query)` - Get search suggestions
 - `update_instances(force=False)` - Update instances list
